@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./main.css";
-import Loader from "../Loader/Loader"
+import Loader from "../Loader/Loader";
 const Jokes = () => {
   const url = "https://icanhazdadjoke.com/";
   const [isLoading, setIsLoading] = useState(true);
@@ -25,14 +25,12 @@ const Jokes = () => {
         }
       })
       .then((resp) => {
-        // console.log(resp.joke)
         const { joke } = resp;
         setJoke(joke);
         setIsLoading(false);
         setBackground("#73A9AD");
       })
       .catch((err) => {
-        // console.log(err)
         setIsError(true);
       });
   };
