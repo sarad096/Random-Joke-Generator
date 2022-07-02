@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Random-Joke-Generator/static/css/main.c097c1e8.css",
+    "main.js": "/Random-Joke-Generator/static/js/main.4bc22b9b.js",
+    "index.html": "/Random-Joke-Generator/index.html",
+    "main.c097c1e8.css.map": "/Random-Joke-Generator/static/css/main.c097c1e8.css.map",
+    "main.4bc22b9b.js.map": "/Random-Joke-Generator/static/js/main.4bc22b9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c097c1e8.css",
+    "static/js/main.4bc22b9b.js"
+  ]
+}
